@@ -16,6 +16,24 @@ Then generate your new project:
 yo fe-gulp
 ```
 
+## front-end template
+```
+├── gulpfile.js
+├── img
+├── index.html
+├── js
+│   └── index.js
+├── package.json
+└── sass
+    └── index.scss
+```
+
+* html (minify)
+* javascript (babel, uglify)
+* css (sass, autoprefixer)
+* image (Minify PNG, JPEG, GIF and SVG images)
+* browser-sync (live reload)
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
